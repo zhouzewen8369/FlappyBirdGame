@@ -68,7 +68,7 @@ class Pipline(object):
 
             global topy,interval  # 随机化 上管道位置、上下间隔
             topy = random.random() * (-200) - 200  # (-400, -200)
-            interval = random.random() * 80 + 700  # (700, 780)
+            interval = random.random() * 80 + 650  # (700, 780)
             # random.random()生成[0,1)范围内的一个实数
 
 
